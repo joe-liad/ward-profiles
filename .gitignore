@@ -1,0 +1,16 @@
+.ipynb_checkpoints/
+.vscode/
+__pycache__/
+health_to_sort_out/
+Show & Tell 2021-11-23/
+analysis/
+.DS_Store
+reveal.js
+*.gdoc
+*_shp/
+*_shp.zip
+# > 100M
+msoa11_full_clipped.zip
+lsoa11_full_clipped.zip
+oa11_full_clipped.zip
+lsoa11_full_clipped.zip

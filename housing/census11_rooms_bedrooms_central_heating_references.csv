@@ -1,0 +1,4 @@
+"date","geography","geography code","Rural Urban","Central Heating: All categories: Type of central heating in household; measures: Value","Central Heating: Does not have central heating; measures: Value","Central Heating: Does have central heating; measures: Value","Central Heating: Occupancy rating (rooms) of -1 or less; measures: Value","Central Heating: Occupancy rating (bedrooms) of -1 or less; measures: Value","Central Heating: Average household size; measures: Value","Central Heating: Average number of rooms per household; measures: Value","Central Heating: Average number of bedrooms per household; measures: Value"
+"2011","England","E92000001","Total",22063368,594561,21468807,1928596,1024473,2.4,5.4,2.7
+"2011","London","E12000007","Total",3266173,92411,3173762,707437,370531,2.5,4.7,2.5
+"2011","Lewisham","E09000023","Total",116091,3780,112311,25722,14018,2.4,4.5,2.3
