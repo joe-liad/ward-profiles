@@ -22,8 +22,10 @@ def join_gdf_df(left, right, index_left, index_right):
         left.reset_index(inplace=True)
         left.set_index(index_left, inplace=True)
     if right.index.name != index_right:
-        right.set_index(index_right, inplace=True)
-    return left.join(right)
+        right.set_index(index_right, inplace=True)        
+    ret = left.join(right)
+    ret = ret.reset_index().drop(columns=['index'])
+    return ret
 
 
 def explore_metric(

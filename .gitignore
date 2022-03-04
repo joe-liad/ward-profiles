@@ -9,6 +9,7 @@ reveal.js
 *.gdoc
 *_shp/
 *_shp.zip
+*-jvsc-*
 # > 100M
 msoa11_full_clipped.zip
 lsoa11_full_clipped.zip
