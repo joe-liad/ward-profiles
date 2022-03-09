@@ -206,3 +206,17 @@ ethnicity = add_ward_name(pd.read_csv(f"{project_dir}/ethnicity/lbl_ethnicity_gr
 
 # fuel_poverty
 fuel_poverty = add_ward_name(pd.read_csv(f"{project_dir}/fuel_poverty/lbl_fp_lsoa11.csv"))
+
+health_unpaid_care = add_ward_name(pd.read_csv(f"{project_dir}/health/lbl_health_and_provision_of_unpaid_care_groups_wd22.csv"))
+
+accommodation_type_groups = add_ward_name(pd.read_csv(f"{project_dir}/housing/lbl_accommodation_type_groups_wd22.csv"))
+
+car_van_availability = add_ward_name(pd.read_csv(f"{project_dir}/housing/lbl_car_van_availability_wd22.csv"))
+
+household_compositions_groups = add_ward_name(pd.read_csv(f"{project_dir}/housing/lbl_household_compositions_groups_wd22.csv"))
+occupancy_rating = add_ward_name(pd.read_csv(f"{project_dir}/housing/lbl_occupancy_rating_wd22.csv"))
+rooms_bedrooms_central_heating = add_ward_name(pd.read_csv(f"{project_dir}/housing/lbl_rooms_bedrooms_central_heating_wd22.csv"))
+# rooms_bedrooms_central_heating_groups = add_ward_name(pd.read_csv(f"{project_dir}/housing/lbl_rooms_bedrooms_central_heating_groups_wd22.csv"))
+tenure_households = add_ward_name(pd.read_csv(f"{project_dir}/housing/lbl_tenure_households_wd22.csv"))
+
+religion_groups = add_ward_name(pd.read_csv(f"{project_dir}/religion/lbl_religion_groups_wd22.csv"))
