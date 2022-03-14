@@ -64,13 +64,17 @@ def explore_metric(
     )
 
 # Guess if we are in a colab notebook
+import socket
 if colab.in_colab():
     from google.colab import drive
     drive.mount("/content/gdrive")
     project_dir = "/content/gdrive/MyDrive/WardProfiles"
 else:
-    project_dir = "/Volumes/GoogleDrive/My Drive/WardProfiles"
-
+    if socket.gethostname() == 'L0159L':
+        project_dir = "c:\\Users\\jleach\\code\\ward-profiles"
+    else:
+        project_dir = "/Volumes/GoogleDrive/My Drive/WardProfiles"
+        
 # OA geometry
 oa11 = gpd.read_file(f"{project_dir}/boundaries/oa/lbl_oa11_20m.gpkg")
 lsoa11 = gpd.read_file(f"{project_dir}/boundaries/oa/lbl_lsoa11_20m.gpkg")
